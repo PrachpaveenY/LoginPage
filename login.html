@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Login PrachpaveenY</title>
+
+    <Style>
+        /* Internal CSS */
+        .login-form {
+            width: 300px;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .login-form h1 {
+            text-align: center;
+            color: black;
+            font-size: 24px;
+            padding: 20px 0 20px 0;
+        }
+
+        .login-form input[type="password"],
+
+        .login-form input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #bbb;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .login-form input[type="Submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: rgb(21, 21, 21);
+            border: 0;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-weight: bold;
+            color: aliceblue;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="login-form">
+        <h1>login-form</h1>
+        <form action="auth" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="Submit">
+        </form>
+    </div>
+</body>
+</html>
